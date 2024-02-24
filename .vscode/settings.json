@@ -12,7 +12,7 @@
   },
 
   // Deixar o curso com efeito de 200 FPS
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   // Efeito quando o cursor pisca
   "editor.cursorBlinking": "expand",
 
