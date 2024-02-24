@@ -15,9 +15,26 @@ body {
 }
 
 #stopwatch {
-  background-color: #262626;
+  filter: alpha(opacity=50);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(200, 148, 255, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  opacity: 0.9;
+  -moz-opacity: 0.9;
+  -webkit-opacity: 0.9;
   padding: 2rem;
   border-radius: 8px;
+  box-shadow: 2px 5px 4px 16px white;
+  -moz-box-shadow: 2px 5px 4px 16px;
+  -webkit-box-shadow: 2px 5px 4px 16px opacity(0.3);
+}
+
+div {
+  opacity: 1;
 }
 
 #timer {
@@ -27,7 +44,7 @@ body {
   background-color: #262626;
   height: 250px;
   width: 250px;
-  border: 3px solid #9f6bff;
+  border: 3px solid #91bdff;
   border-radius: 100%;
   font-weight: 600;
   font-size: 30px;
@@ -58,7 +75,7 @@ body {
 }
 
 #actions button:hover {
-  background-color: #c4b5fd;
+  background-color: #91bdff;
 }
 
 #marks-list {
